@@ -1,3 +1,3 @@
-# Workshop - Next.js & TailwindCSS & Framer Motion
+# Workshop Challenge - Next.js & TailwindCSS & Framer Motion
 
-We'll build a lightweight, animated & responsive small website.
+Challenge for DoWhile2020 event.
