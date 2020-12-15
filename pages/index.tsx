@@ -16,7 +16,7 @@ const Text: React.FC = ({ children }) => {
 
 const Link: React.FC<ILinkProps> = ({ children, link }) => {
   return (
-    <a className="text-purple-600 hover:text-purple-800" href={link} >{children}</a>
+    <a target="blank_" className="text-purple-600 hover:text-purple-800" href={link} >{children}</a>
   );
 }
 
