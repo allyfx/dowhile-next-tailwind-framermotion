@@ -1,9 +1,9 @@
-import { AnimateSharedLayout } from 'framer-motion'
+import { AnimateSharedLayout } from 'framer-motion';
 
-import '../styles/tailwind.css'
-import '../styles/globals.css'
+import '../styles/tailwind.css';
+import '../styles/globals.css';
 
-import Layout from '../components/Layout'
+import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </Layout>
     </AnimateSharedLayout>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
